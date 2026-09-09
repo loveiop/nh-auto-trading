@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-09",
+  "unit_integration_and_ui_tests": {
+    "passed": 40,
+    "failed": 0
+  },
+  "dependency_check": "passed",
+  "http_health_status": 200,
+  "app_html_status": 200,
+  "public_nh_master_filtered_count": 2436,
+  "live_auth_tested": false,
+  "live_websocket_tested": false,
+  "real_orders_sent": 0,
+  "deployed": false,
+  "original_regression": {
+    "official_channel": "oc",
+    "official_price_field": "31700",
+    "old_received_count": 1,
+    "old_signal_price_updates": 0,
+    "new_parsed_price": 31700
+  }
+}

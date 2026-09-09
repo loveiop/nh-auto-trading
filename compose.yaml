@@ -1,0 +1,14 @@
+services:
+  trader:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NH_TRADER_DATA_DIR: /app/data
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - trader-data:/app/data
+volumes:
+  trader-data:
+
