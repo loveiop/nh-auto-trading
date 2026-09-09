@@ -1,8 +1,0 @@
-nhplug[tls]==0.3.1
-streamlit==1.63.0
-beautifulsoup4==4.15.0
-filelock==3.32.6
-plotly==6.9.0
-python-dotenv==1.2.3
-tzdata==2026.3
-
